@@ -6,6 +6,6 @@
   "scripts": {
     "start": "node app.js"
   },
-  "author": "",
+  "author": "Bruno",
   "license": "ISC"
 }

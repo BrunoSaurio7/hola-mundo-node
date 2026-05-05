@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hola mundo con Node.js</title>
+</head>
+<body>
+  <h1>Hola mundo con Node.js</h1>
 
+  <p>
+    Esta página fue enviada por un servidor creado con Node.js
+  </p>
+
+  <hr>
+
+  <h2>Prueba de ruta HTML</h2>
+  <p>
+    Si puedes ver esta página, significa que el servidor respondió correctamente
+    a la ruta principal
+  </p>
+
+  <hr>
+
+  <h2>Prueba de ruta JSON</h2>
+  <p>
+    Haz clic en el botón para pedir datos al servidor
+  </p>
+
+  <button id="btnSaludo">Obtener saludo</button>
+
+  <p id="resultado">Aquí aparecerá la respuesta del servidor</p>
+
+  <hr>
+
+  <h2>Pruebas manuales</h2>
+
+  <ul>
+    <li><a href="/">Ruta principal: /</a></li>
+    <li><a href="/api/saludo">Ruta JSON: /api/saludo</a></li>
+    <li><a href="/api/status">Ruta texto: /api/status</a></li>
+    <li><a href="/no-existe">Ruta inexistente: /no-existe</a></li>
+  </ul>
+
+  <script src="/script.js"></script>
+</body>
+</html>

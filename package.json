@@ -1,0 +1,11 @@
+{
+  "name": "hola-mundo-node",
+  "version": "1.0.0",
+  "description": "Hola mundo con Node.js para programación web",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
